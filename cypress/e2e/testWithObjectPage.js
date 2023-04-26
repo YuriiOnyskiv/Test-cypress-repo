@@ -58,7 +58,7 @@ describe("Test with Page Object", () =>{
     it.only("Should add new row to the Smart Table, update it and then remove it", () => {
         navigateTo.tablesSmartTablePage()
         onTablesSmartTablePage.addNewRow("Yurii", "Onyskiv")
-        onTablesSmartTablePage.updateAddedRow("New Yurii", "New ony")
+        onTablesSmartTablePage.updateAddedRow("New Yurii3", "New ony")
         onTablesSmartTablePage.deleteAddedRow()
     })
 })
